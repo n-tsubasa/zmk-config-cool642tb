@@ -80,10 +80,10 @@
 
         FUNCTION {
             bindings = <
-&none            &none        &none         &none         &none                                          &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DOLLAR    &kp CARET     &kp TILDE      &kp INT_MUHENKAN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON
-&kp QUESTION     &kp MINUS    &kp ASTERISK  &kp EQUAL     &kp PERIOD    &kp AMPERSAND  &kp PIPE          &kp COMMA         &kp PERIOD         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON
-&bt BT_PRV       &bt BT_NXT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none          &kp MINUS         &bt BT_CLR_ALL                                                                    &kp LEFT_SHIFT
+&kp LANG_ZENKAKUHANKAKU  &none        &none         &none         &none                                          &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
+&kp EXCLAMATION          &kp AT_SIGN  &kp HASH      &kp DOLLAR    &kp CARET     &kp TILDE      &kp INT_MUHENKAN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON
+&kp QUESTION             &kp MINUS    &kp ASTERISK  &kp EQUAL     &kp PERIOD    &kp AMPERSAND  &kp PIPE          &kp COMMA         &kp PERIOD         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON
+&bt BT_PRV               &bt BT_NXT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none          &kp MINUS         &bt BT_CLR_ALL                                                                    &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
